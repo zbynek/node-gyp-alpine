@@ -6,7 +6,7 @@ FROM mhart/alpine-node:12.4.0
 ENV TERM=xterm
 
 RUN apk add --update --no-cache python \
-    python-dev \
+    python2-dev \
     py-pip \
     git \
     nano \
